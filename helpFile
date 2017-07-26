@@ -1,0 +1,34 @@
+---- General Overview -------------
+
+> General Notes:
+- The car is blue, it leaves a "slug trail" that is dark orange.
+- The slug trail was to account for what was said to be a "Drunk driver".
+- Mouse double click to bring up menu to set start/end nodes.
+- Mouse near node point is pink dot, and clicked Way with name is pink.
+- Way name near mouse point is displayed both as tool tip and at bottom.
+
+---- Basic interaction with the GPSDevice.jar --------
+
+1. Have the car drive somewhere on the GPSDevice.jar.
+	
+1.1. The car is blue, it leaves a "slug trail" that is dark orange.
+	
+2. Select an end node in the displayPanel by double clicking
+a pink dot point (set start should be disabled).
+	
+3. An light orange path in displayPanel should automatically 
+show up that maps car to endNode.
+		
+3.5. Selection of a startNode is disabled while we are
+receiving "satellite events".
+		
+4. If we want to stop receiving "satellite events", go
+to Navigate > Disable Drive Mode.
+		
+5. Bottom Left Panel (GPSInfo Panel) shows some updates.
+Map have to drag split pane over to see more. 
+	
+6. Unless driveMode is disabled (can see in GPSInfo Panel),
+the car has priority over any start/end nodes we set.
+
+* see READ_ME_4 and USE_GUIDE for more.
