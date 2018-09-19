@@ -1,6 +1,6 @@
 # prjOSM
 <b>CSE Course project Fall 2016 w Professor Stark </b><br>
-This was my first project after learning to code.
+This was my first project after learning to code. OSM - open street map.
 
 ![gps1](https://i.imgur.com/jX9CXU1.png)
 
